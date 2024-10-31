@@ -1,0 +1,111 @@
+body {
+    background-color: #6b4322; /* Color pastel de fondo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dd1d1d; /* Color pastel del encabezado */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #050505;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #87eb2a; /* Color del submenú */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    width: 45%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.text1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.text2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.text1 {
+    color: #ff0000; /* Texto tétrico */
+}
+
+.text2 {
+    color: #fffb00; /* Texto colorido */
+}
+
+.box:hover .text1, .box:hover .text2 {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+
+
+.btn-regresar {
+    background-color: #bbfc72; /* Color de fondo */
+    color: rgb(13, 13, 14); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    border-radius: 60px;
+}

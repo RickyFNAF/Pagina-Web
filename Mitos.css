@@ -1,0 +1,101 @@
+body {
+    background-color: #68371a; /* Color café de fondo */
+    color: rgb(36, 88, 241); /* Color de texto */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Algerian', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color: #0f0d0d; /* Color */
+    text-shadow: 1px 1px 5px rgba(255, 1, 1, 0.719);
+    margin-top: 20px;
+    position: relative;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 5em;
+    padding: 40px;
+}
+
+.cuadros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10%;
+}
+
+.cuadro {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cuadro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+.titulo-mito {
+    color: #ee1c1c; /* Cambia esto al color que desees para el título */
+    margin: 0; /* Para eliminar el margen predeterminado */
+}
+
+.contenido {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.863); /* Fondo semi-transparente */
+    color: rgb(44, 42, 197);
+    padding: 10px;
+    text-align: center;
+    opacity: 0; /* Ocultar contenido inicialmente */
+    transition: opacity 0.3s ease;
+}
+
+.texto {
+    overflow: hidden; /* Evitar desbordamiento */
+    text-overflow: ellipsis; /* Cortar texto que se exceda */
+}
+
+footer {
+    width: 100%;
+    background-color: hsl(0, 0%, 2%); /* Color más oscuro para el pie de página */
+    color: rgb(19, 207, 19);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flechas {
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.regresar {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Conocidos de Yojoa</title>
+    <link rel="stylesheet" href="./Estilos CSS/Lugares.css">
+</head>
+<body>
+
+    <h1>Lugares Conocidos de Yojoa</h1>
+    
+    <div class="circle" id="circle">
+        <div class="slice slice1" onclick="showInfo('info1')">Campo</div>
+        <div class="slice slice2" onclick="showInfo('info2')">Iglesia</div>
+        <div class="slice slice3" onclick="showInfo('info3')">Escuela</div>
+
+        <div id="info1" class="info">
+            <h2>Campo de Yojoa</h2>
+            <p>En Yojoa se cuenta con varios campos donde pueden <br>
+            ir a jugar equipos de la comunidad o incluso entre amigos <br>
+        pueden ir a divertirse a jugar partidos</p>
+            <img src="./Imagenes/Campo.jpg" alt="Lugar 1" width="100">
+            <button class="button" onclick="goBack()">Regresar</button>
+        </div>
+        <div id="info2" class="info">
+            <h2>Iglesias de Yojoa</h2>
+            <p>Yojoa cuenta con un buen numero de Iglesias tanto Catolicas como <br>
+            Evangelicas, donde cualquiera puede ir a congregarse, el nombre  <br>
+            del pueblo San Jose de Yojoa salio de una iglesia catolica</p>
+            <img src="./Imagenes/iglesia 2.jpg" alt="Lugar 2" width="100">
+            <button class="button" onclick="goBack()">Regresar</button>
+        </div>
+        <div id="info3" class="info">
+            <h2><br>Escuelas de Yojoa</h2>
+            <p>San Jose de Yojoa cuenta con una <br> escuela llamada Amilcar Rivera
+            Calderon, <br> la escuela tiene un buen porcentaje de estudiantes, en esta
+        escuela hay Quinder, Grado de primero a sexto, y cuenta con colegio de
+        1er ciclo a 3er ciclo, y con la carrera de BCH</p>
+            <img src="./Imagenes/escuela.jpg" alt="Lugar 3" width="100">
+            <button class="button" onclick="goBack()">Regresar</button>
+        </div>
+    </div>
+    <a href="./Yojoa.HTML">
+    <div class="footer" onclick="location.href='pagina_principal.html';">
+        <div class="footer-arrow">➡️ Regresar a la página principal ⬅️</div>
+    </div>
+
+    <script src="./Estilos.js/lugares.js"></script>
+</body>
+</html>

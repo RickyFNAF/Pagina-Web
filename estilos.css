@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(218, 172, 137);
+}
+.caja1{
+    background-color: rgb(233, 202, 178);
+    width: 310px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+.caja2{
+    background-color: rgb(94, 58, 30);
+    width: 310px;
+    height: 600px;
+    float:left ;
+    text-align: center;
+}
+.caja3{
+    background-color: rgb(233, 202, 178);
+    width: 310px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+.caja4{
+    background-color: rgb(94, 58, 30);
+    width: 310px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+h2{
+    text-decoration: double;
+}
+
+img{
+    width: 220px;
+    height: 220px;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(228, 205, 186);
+    color: rgb(219, 249, 253);
+    padding:20px;
+
+}
+nav ul{
+    background-color: gainsboro;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.btn-regresar {
+    background-color: #b4834d; /* Color de fondo */
+    color: rgb(247, 251, 252); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    border-radius: 60px;
+}

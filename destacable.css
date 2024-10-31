@@ -1,0 +1,80 @@
+body {
+    background-color: #7B4B3A; /* Color café */
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgb(236, 37, 37); /* Brillo amarillo */
+}
+
+.caja-sorpresa {
+    width: 200px;
+    height: 200px;
+    background-color: #fffb00; /* Café más claro */
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.caja-sorpresa:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.822);
+    color: black;
+    border-radius: 10px;
+}
+
+.box {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.box a {
+    color: #f11c1c;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.box .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    color: #12f312;
+    animation: shine 1.5s infinite;
+}
+
+.box .arrow.right {
+    right: 10px;
+}
+
+.box .arrow.left {
+    left: 10px;
+}
+
+@keyframes shine {
+    0% { text-shadow: 0 0 5px #f39c12, 0 0 10px #f39c12; }
+    50% { text-shadow: 0 0 10px #f39c12, 0 0 20px #f39c12; }
+    100% { text-shadow: 0 0 5px #f39c12, 0 0 10px #f39c12; }
+}

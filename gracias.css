@@ -1,0 +1,50 @@
+body {
+    background-color: #5c4423; /* Color café */
+    color: #fbff00; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+img {
+    text-align: left;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    max-width: 600px; /* Limitar el ancho del texto */
+}
+
+.cuadro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.footer {
+    background-color: #454fe4; /* Un tono más claro de café */
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer:hover {
+    background-color: #4ae70c; /* Color al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumentar al pasar el mouse */
+}
