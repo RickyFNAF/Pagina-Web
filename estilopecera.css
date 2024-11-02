@@ -14,7 +14,6 @@
     min-height: 80vh;
     padding-top: 4em; /* Ajuste para evitar solapamiento con la barra de inicio */
     background-color: #e6c96c
-    
 }
 
 
@@ -24,12 +23,12 @@
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     font-size: 145%;
-    margin: 20px auto
-
+    margin: 20px auto; 
+    text-align: justify; 
 }
 
 .s2-textos {
-    text-align: justify; /* Alineación central del texto */
+    text-align: center; /* Alineación central del texto */
     margin-bottom: 4em; /* Espacio inferior entre el título y las imágenes */
 }
 
@@ -62,7 +61,7 @@
 }
 
 .box .arrow.left {
-    left: 10px;
+    left: 15px;
 }
 
 .box .arrow.right {
