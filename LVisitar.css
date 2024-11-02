@@ -1,0 +1,84 @@
+/* Estilo básico para el cuerpo de la página */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
+    color: rgb(15, 15, 15);
+    padding: 1em 0;
+    text-align: center;
+    font-size: 20px; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Estilo para las secciones del main */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:  #b4834d;
+    border-radius: 8px;
+    color: rgb(2, 2, 2);
+}
+
+
+
+.navegacion a {
+    color: #060e03; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 20px 0; /* Espacio vertical entre elementos */
+    transition: color 0.3s; /* Transición suave */
+    padding-top: 50px;
+    font-size: 20px; 
+    padding: 20px 20px; /* Aumenta el padding vertical */
+    margin-right: 40px;
+    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
+    border-radius: 60px;
+    display: flex; /* Esto hace que los elementos se alineen en una fila */
+justify-content: center;
+   width: 220px;
+   justify-content: center;
+}
+
+.btn-regresar {
+    background-color: #b4834d; /* Color de fondo */
+    color: rgb(247, 251, 252); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    border-radius: 60px;
+}
+
+
+.imagen-estilo {
+    height: 100px; /* Establece la altura de la imagen */
+    width: 400px; /* Establece la anchura de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 30px auto; /* Centra la imagen y agrega margen superior/inferior */
+    border-width: 10px;
+    border-color: rgb(241, 245, 7);
+    border-style: double;
+
+    
+}
+

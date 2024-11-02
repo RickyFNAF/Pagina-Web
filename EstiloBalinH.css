@@ -1,0 +1,115 @@
+/* Estilo básico para el cuerpo de la página */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
+    color: rgb(15, 15, 15);
+    padding: 1em 0;
+    text-align: center;
+    font-size: 20px; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+/* Estilo para las secciones del main */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:  #b4834d;
+    border-radius: 8px;
+    color: rgb(2, 2, 2);
+}
+
+/* Estilo para la cuadrícula de la historia */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna que ocupa todo el ancho disponible */
+    gap: 20px; /* Espacio entre las cajas */
+}
+
+/* Estilo para los elementos de la cuadrícula */
+.grid-item {
+    background-color:   #f4fcb4;
+    border: 3px solid #b4834d;
+    border-radius: 8px;
+    padding: 30px;
+    overflow: hidden; /* Asegura que las imágenes no salgan del contenedor */
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.grid-item img {
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-bottom: 1px solid  #b4834d;/* Añade una línea divisoria debajo de la imagen */
+    margin-bottom: 10px; /* Espacio debajo de la imagen */
+}
+
+.grid-item h3 {
+    font-size: 1.5em; /* Tamaño del texto del encabezado dentro de las cajas */
+    margin: 10px 0;
+}
+
+.grid-item p {
+    font-size: 1em; /* Tamaño del texto del párrafo dentro de las cajas */
+    margin: 0;
+}
+
+img {
+    width: 250px;
+    height: 350px; /* Ajusta la altura proporcionalmente */
+    margin: 15px 0;
+    padding-left: 25px;
+    transition:   transform 0.3s ease; /* Transición suave para el efecto de escalado */
+    animation:float 2s linear infinite;
+}
+
+@keyframes float  {
+    0%, 100% {
+        transform: translateY(0rem)
+    }
+    50% {
+        transform: translateY(-1.5rem);
+    }
+}
+
+.btn-regresar {
+    background-color: #b4834d; /* Color de fondo */
+    color: rgb(247, 251, 252); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    border-radius: 60px;
+}
+

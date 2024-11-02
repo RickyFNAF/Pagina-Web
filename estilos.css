@@ -1,225 +1,60 @@
-/* estiloscss.css */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+body{
+    background-color: rgb(218, 172, 137);
 }
-
-
-
-.main {
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 4em; /* Ajuste para evitar solapamiento con la barra de inicio */
-}
-
-.section-1 {
-    width: 100%;
-    height: 5em;
-    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
-    padding-top: 1.5em;
-}
-
-.header {
-    background-color: #2d2f3e;
-    width: 100%;
-    height: 4em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1em;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-}
-
-.img {
-    background-color:  #e2ffb5;
-    width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.img img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover; /* Ajuste para que la imagen se ajuste al contenedor sin deformarse */
-}
-
-.menu {
-    background-color: #e2ffb5;
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #0c0c0c;
-    padding: 1em 1.5em;
-    transition: background-color 0.3s;
-}
-
-.menu a:hover {
-    background-color: #de87f0; /* Color de fondo al pasar el ratón */
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
-}
-
-.section-2 {
-    width: 100%;
-    background: #b4834d; 
-    padding-top: 1em; /* Reducción del espacio superior */
-    text-align: center; /* Alineación centrada del contenido */
-}
-
-.s2-textos {
-    text-align: center; /* Alineación central del texto */
-    margin-bottom: 4em; /* Espacio inferior entre el título y las imágenes */
-}
-
-.s2-img-container {
-    display: flex;
-    justify-content: space-around; /* Espaciado uniforme entre las imágenes */
-    flex-wrap: wrap; /* Ajuste para que las imágenes se envuelvan correctamente */
-    margin-top: 1em; /* Reducción del espacio superior */
-    margin-bottom: 7em; /* Espacio inferior entre las imágenes y el texto */
-}
-
-.contenido-img {
-    width: 22%; /* Ancho ajustado para mostrar las tres imágenes en una fila */
-    padding: 0 1em; /* Añadido espacio interno a los lados */
-    box-sizing: border-box; /* Asegura que el padding no incremente el tamaño total */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra el contenido verticalmente */
-}
-
-.contenido-img img {
-    width: 105%;
-    height: 30%;
-    margin-top: -50px;
-}
-
-.contenido-texto {
-    width: 280px; /* Ancho de la caja */
-    height: 340px; /* Alto de la caja */
-    background-color: rgb(253, 203, 170); /* Fondo gris claro para el contenido */
-    padding: 2em;
-    text-align: justify; /* Justifica el texto */
-    margin-top: 0.5em; /* Espacio superior */
-
-}
-
-.contenido-texto h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-.contenido-texto p {
-    margin-bottom: 1em;
-    font-size: 110%;
-}
-
-.contenido-texto a {
-    color: #ff5500;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.contenido-texto a:hover {
-    text-decoration: underline;
-}
-
-/* Estilos para la tercera imagen */
-.s3-logo {
-    width: 30%; /* Ajuste el ancho según sea necesario */
-    padding: 0 1em; /* Espacio interno a los lados */
-    box-sizing: border-box; /* Asegura que el padding no incremente el tamaño total */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra el contenido verticalmente */
-}
-
-.s3-logo img {
-    width: 100%;
-    height: auto;
-}
-
-.s3-logo .contenido-texto {
-    background-color: #b4834d; /* Fondo gris claro para el contenido */
-    padding: 1.5em;
-    text-align: justify; /* Justifica el texto */
-    margin-top: 0.5em; /* Espacio superior */
-    width: 300px;
-    height: 320px;
-    float: right;
-}
-
-.s3-logo .contenido-texto h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-.s3-logo .contenido-texto p {
-    margin-bottom: 1em;
-}
-
-.s3-logo .contenido-texto a {
-    color: #ff5500;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.s3-logo .contenido-texto a:hover {
-    text-decoration: underline;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
-}
-
-/* Estilos para la sección 3 */
-.section-3 {
+.caja1{
+    background-color: rgb(233, 202, 178);
+    width: 310px;
+    height: 600px;
+    float: left;
     text-align: center;
-    margin-top: 3em; /* Espacio superior */
-    padding: 2em 0; /* Añadido padding superior e inferior */
+}
+.caja2{
+    background-color: rgb(94, 58, 30);
+    width: 310px;
+    height: 600px;
+    float:left ;
+    text-align: center;
+}
+.caja3{
+    background-color: rgb(233, 202, 178);
+    width: 310px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+.caja4{
+    background-color: rgb(94, 58, 30);
+    width: 310px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+h2{
+    text-decoration: double;
 }
 
-.section-3 .s3-contenido {
-    margin-bottom: 2em; /* Espacio inferior */
+img{
+    width: 220px;
+    height: 220px;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(228, 205, 186);
+    color: rgb(219, 249, 253);
+    padding:20px;
+
+}
+nav ul{
+    background-color: gainsboro;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
 }
 
-.section-3 .s3-textos {
-    margin-bottom: 0.5em;
-}
-
-video {
-    width: 220px; /* Ancho del video */
-    height: 200px; /* Mantener la relación de aspecto del video */
-    border-radius: 20px; /* Bordes redondeados */
-    margin-top: 50px; /* Ajusta el valor para mover el video hacia abajo */
-}
 
 .btn-regresar {
-    background-color: #f8d3ab; /* Color de fondo */
-    color: rgb(9, 199, 247); /* Color del texto */
+    background-color: #b4834d; /* Color de fondo */
+    color: rgb(247, 251, 252); /* Color del texto */
     border: none; /* Sin borde */
     border-radius: 5px; /* Bordes redondeados */
     padding: 10px 20px; /* Espaciado interno */

@@ -1,0 +1,85 @@
+/* estiloscss.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 1px;
+    padding: 1;
+    color: #f5f4f1;
+    background-color: #f4fcb4;
+    flex-direction: column;
+}
+
+header {
+    background-color: #8B5B29;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 15px;
+
+}
+
+.logo {
+    margin-left: 250px;
+    margin-right: -550px;
+    height: 150px; /* Ajusta según necesites */
+    width: 150px;
+    float: left; 
+}
+    
+.main {
+    display: flex; /* Activar flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Altura del viewport para centrar verticalmente */
+    background-color: #b4834d; /* Color de fondo */
+    margin: 20px;
+    border-radius: 25px;
+    padding-top: 50px;
+}
+
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 20px 0;
+    box-shadow: 0 10px 15px rgba(145, 140, 140, 0.89);
+    text-align: center;
+}
+
+.mi-imagen {
+    width: 250%; /* Ancho del contenedor */
+    height: 75%; /* Alto del contenedor */
+    object-fit: cover; /* Ajustar la imagen para cubrir el contenedor */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    margin-left: -320px;   
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.navegacion a {
+    color: #484b47; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin: 20px 0; /* Espacio vertical entre elementos */
+    transition: color 0.3s; /* Transición suave */
+    padding-top: 50px;
+    text-align: Center;
+    font-size: 25px; 
+    padding: 20px 20px; /* Aumenta el padding vertical */
+    margin-right: 80px;
+    background: linear-gradient(90deg, #ecdd53, #e2ffb5); /* Gradiente corregido */
+    border-radius: 60px;
+
+}
+
+
+.btn-regresar {
+    background-color: #b4834d; /* Color de fondo */
+    color: rgb(247, 251, 252); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    border-radius: 60px;
+}
